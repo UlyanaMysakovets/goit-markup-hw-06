@@ -747,11 +747,10 @@ line-height: 1.71;
 }
 
 .footer-modal-form {
-    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-modal-text {
-    margin-left: 93px;
     margin-bottom: 20px;
     font-style: normal;
     font-weight: 700;
@@ -770,7 +769,6 @@ line-height: 1.71;
     width: 358px;
     height: 50px;
     padding-left: 16px;
-    margin-left: 93px;
     border-color:  rgba(255, 255, 255, 0.3);
     box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -936,7 +934,7 @@ line-height: 1.71;
 }
 
 .modal-form-field {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .modal-form-message {
@@ -962,6 +960,10 @@ line-height: 1.71;
     border-color: var(--accent-color);
 }
 
+.modal-form-text {
+    color: var(--secondary-text-color);
+}
+
 .modal-form-own-checkbox {
     width: 16px;
     height: 15px;
@@ -969,6 +971,7 @@ line-height: 1.71;
     border-radius: 3px;
     cursor: pointer;
     margin-right: 7px;
+
 }
 
 .modal-form-own-checkbox-icon {
@@ -996,7 +999,8 @@ line-height: 1.71;
 .modal-form-check-field {
     display: flex;
     align-items: center;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
+    justify-content: center;
 }
 
 .checkbox-title {
